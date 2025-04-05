@@ -1,6 +1,3 @@
-import random
-from statistics import mode, median, mean
-
 # Actividad 1
 edad = int(input("Ingrese su edad: "))
 if edad >= 18:
@@ -48,7 +45,9 @@ else:
 
 
 # Actividad 6
-# Arriba están las importaciones para esta actividad
+import random
+from statistics import mode, median, mean
+
 numeros_aleatorios = [random.randint(1, 100) for _ in range(10)]
 print("Lista de números aleatorios:", numeros_aleatorios)
 
